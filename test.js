@@ -93,5 +93,25 @@
 //   console.log(forename); // "Oluwatobi"
 //   console.log(surname); // "Sofela"
 //   console.log(onlineSite); // "codesweetly.com"
-import {text} from "./es6"
-console.log(text);
+// import {text} from "./es6.js"
+// console.log(text);
+
+class myclass{
+ constructor(name,year){
+    this.name=name;
+    this.year=year;
+ }
+
+ age(x){
+    return x = this.year;
+ }
+
+}
+var obj =  new myclass("audi",2023);
+obj.age();
+console.log(obj);
+
+
+
+
+
